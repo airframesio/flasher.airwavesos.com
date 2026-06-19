@@ -57,7 +57,7 @@ const FEATURES = [
 ];
 
 const STEPS = [
-  ['Install the app', 'Download Airwaves OS Flasher for your desktop OS and launch it.'],
+  ['Install the app', 'Download Airwaves Flasher for your desktop OS and launch it.'],
   ['Pick a board', 'Choose Raspberry Pi, x86, Rock 5B, Orange Pi 5, or another supported board from the catalog.'],
   ['Choose an image', 'Select stable, beta, dev, or a local Airwaves OS image file.'],
   ['Select storage', 'Insert an SD card or USB drive; the app keeps normal system disks out of the target list.'],
@@ -115,7 +115,7 @@ export default function Home() {
         <title>Airwaves Flasher - Get Airwaves OS onto your device</title>
         <meta
           name="description"
-          content="Download Airwaves OS Flasher, a cross-platform desktop app for writing, verifying, and first-boot configuring Airwaves OS images."
+          content="Download Airwaves Flasher, a cross-platform desktop app for writing, verifying, and first-boot configuring Airwaves OS images."
         />
         <link rel="icon" href="/airwaves.png" />
         <meta property="og:title" content="Airwaves Flasher" />
@@ -135,7 +135,7 @@ export default function Home() {
               <p className="hero__chip mono">
                 <span className="dot dot--live" /> Desktop installer for Airwaves OS
               </p>
-              <h1 className="hero__title">Airwaves OS Flasher</h1>
+              <h1 className="hero__title">Airwaves Flasher</h1>
               <p className="hero__sub">
                 A focused imager for getting Airwaves OS onto SD cards and USB drives.
                 Pick a board, choose an image, select storage, and write a verified

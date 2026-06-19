@@ -47,7 +47,7 @@ export default function ProductPreview({ compact = false }) {
       <div className="preview__media">
         <Image
           src={screen.img}
-          alt={`Airwaves OS Flasher ${screen.label.toLowerCase()} screen`}
+          alt={`Airwaves Flasher ${screen.label.toLowerCase()} screen`}
           fill
           sizes={compact ? '(max-width: 900px) 100vw, 44vw' : '(max-width: 900px) 100vw, 68vw'}
           priority={compact}

@@ -43,7 +43,7 @@ export default function SiteFooter() {
       </div>
 
       <div className="footer__bottom container mono">
-        <span>&copy; {new Date().getFullYear()} Airframes / Airwaves OS Flasher is MIT licensed</span>
+        <span>&copy; {new Date().getFullYear()} Airframes / Airwaves Flasher is MIT licensed</span>
         <span>Open source desktop installer</span>
       </div>
     </footer>

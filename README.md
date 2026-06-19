@@ -1,15 +1,15 @@
 # Airwaves Flasher Website
 
-Marketing and download site for Airwaves OS Flasher, the desktop app used to
+Marketing and download site for Airwaves Flasher, the desktop app used to
 write, verify, and first-boot configure Airwaves OS images.
 
 The site is a static Next.js export designed for Netlify. It is intentionally
 small: one primary landing page, local assets, static screenshots, and direct
-links to the Airwaves OS Flasher release page.
+links to the Airwaves Flasher release page.
 
 ## What This Site Does
 
-- Explains the Airwaves OS Flasher install workflow.
+- Explains the Airwaves Flasher install workflow.
 - Links users to the latest macOS, Windows, and Linux releases.
 - Shows native app screenshots without browser framing.
 - Points technical users to the Flasher source and Airwaves OS image releases.

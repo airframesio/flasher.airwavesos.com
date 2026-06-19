@@ -146,7 +146,7 @@ export default function SiteNav() {
 
       <div className={`menu ${open ? 'is-open' : ''}`} aria-hidden={!open}>
         <div className="menu__inner">
-          <p className="menu__eyebrow mono">Airwaves OS Flasher</p>
+          <p className="menu__eyebrow mono">Airwaves Flasher</p>
           {LINKS.map(([href, label], i) => (
             <a
               key={href}
