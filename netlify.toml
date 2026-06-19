@@ -1,0 +1,26 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.images]
+  compress = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
