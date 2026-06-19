@@ -119,7 +119,6 @@ export default function Home() {
           name="description"
           content="Download Airwaves Flasher, the open-source desktop app for writing, verifying, and first-boot configuring Airwaves OS images."
         />
-        <link rel="icon" href="/airwaves.png" />
         <meta property="og:title" content="Airwaves Flasher" />
         <meta
           property="og:description"
