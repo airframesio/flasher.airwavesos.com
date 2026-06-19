@@ -114,7 +114,7 @@ Most page content is data-driven inside `pages/index.js`:
 The release CTA currently points to:
 
 ```text
-https://github.com/airframesio/airwaves-os-flasher/releases/latest
+https://github.com/airframesio/airwaves-flasher/releases/latest
 ```
 
 Update screenshots in `public/screenshots/` and `public/screenshots/light/`, then

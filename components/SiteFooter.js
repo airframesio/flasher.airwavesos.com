@@ -29,8 +29,8 @@ export default function SiteFooter() {
         <nav className="footer__col" aria-label="Resources">
           <h4 className="mono">Resources</h4>
           <a href="https://www.airwavesos.com" target="_blank" rel="noopener noreferrer" onClick={track('airwaves_os', 'outbound_link')}>Airwaves OS</a>
-          <a href="https://github.com/airframesio/airwaves-os-flasher/releases/latest" target="_blank" rel="noopener noreferrer" onClick={track('releases', 'outbound_link')}>Releases</a>
-          <a href="https://github.com/airframesio/airwaves-os-flasher" target="_blank" rel="noopener noreferrer" onClick={track('source', 'outbound_link')}>Source</a>
+          <a href="https://github.com/airframesio/airwaves-flasher/releases/latest" target="_blank" rel="noopener noreferrer" onClick={track('releases', 'outbound_link')}>Releases</a>
+          <a href="https://github.com/airframesio/airwaves-flasher" target="_blank" rel="noopener noreferrer" onClick={track('source', 'outbound_link')}>Source</a>
           <a href="https://github.com/airframesio/airwaves-os" target="_blank" rel="noopener noreferrer" onClick={track('airwaves_os_repo', 'outbound_link')}>OS images</a>
         </nav>
 

@@ -6,8 +6,8 @@ import ProductPreview from '../components/ProductPreview';
 import { event } from '../lib/gtag';
 import { useReveal } from '../lib/useFx';
 
-const RELEASES = 'https://github.com/airframesio/airwaves-os-flasher/releases/latest';
-const SOURCE = 'https://github.com/airframesio/airwaves-os-flasher';
+const RELEASES = 'https://github.com/airframesio/airwaves-flasher/releases/latest';
+const SOURCE = 'https://github.com/airframesio/airwaves-flasher';
 const AIRWAVES_OS = 'https://github.com/airframesio/airwaves-os';
 const SITE_URL = 'https://flasher.airwavesos.com';
 const SOCIAL_IMAGE = `${SITE_URL}/airwaves-flasher-social.png`;
