@@ -9,6 +9,8 @@ import { useReveal } from '../lib/useFx';
 const RELEASES = 'https://github.com/airframesio/airwaves-os-flasher/releases/latest';
 const SOURCE = 'https://github.com/airframesio/airwaves-os-flasher';
 const AIRWAVES_OS = 'https://github.com/airframesio/airwaves-os';
+const SITE_URL = 'https://flasher.airwavesos.com';
+const SOCIAL_IMAGE = `${SITE_URL}/airwaves-flasher-social.png`;
 
 const STATS = [
   ['Catalog', 'Airwaves OS images and supported boards'],
@@ -115,15 +117,26 @@ export default function Home() {
         <title>Airwaves Flasher - Get Airwaves OS onto your device</title>
         <meta
           name="description"
-          content="Download Airwaves Flasher, a cross-platform desktop app for writing, verifying, and first-boot configuring Airwaves OS images."
+          content="Download Airwaves Flasher, the open-source desktop app for writing, verifying, and first-boot configuring Airwaves OS images."
         />
         <link rel="icon" href="/airwaves.png" />
         <meta property="og:title" content="Airwaves Flasher" />
         <meta
           property="og:description"
-          content="Flash Airwaves OS to SD cards and USB drives with image catalogs, verification, and first-boot configuration."
+          content="Open-source like Airwaves OS. Flash Airwaves OS to SD cards and USB drives with image catalogs, verification, and first-boot configuration."
         />
-        <meta property="og:image" content="/airwaves-flasher-og.png" />
+        <meta property="og:url" content={SITE_URL} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={SOCIAL_IMAGE} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Airwaves Flasher" />
+        <meta
+          name="twitter:description"
+          content="Open-source desktop app for flashing, verifying, and first-boot configuring Airwaves OS media."
+        />
+        <meta name="twitter:image" content={SOCIAL_IMAGE} />
       </Head>
 
       <SiteNav />
@@ -133,7 +146,7 @@ export default function Home() {
           <div className="hero__grid container">
             <div className="hero__copy" data-reveal>
               <p className="hero__chip mono">
-                <span className="dot dot--live" /> Desktop installer for Airwaves OS
+                <span className="dot dot--live" /> Open-source desktop installer for Airwaves OS
               </p>
               <h1 className="hero__title">Airwaves Flasher</h1>
               <p className="hero__sub">
@@ -320,9 +333,10 @@ export default function Home() {
                 Built by the Airwaves OS and Airframes team.
               </h2>
               <p>
-                Airwaves Flasher is part of the Airwaves OS install path: open
-                tooling for getting radio-focused operating system images onto real
-                hardware with less terminal ceremony.
+                Airwaves Flasher is open-source, just like Airwaves OS. It is part
+                of the Airwaves OS install path: open tooling for getting
+                radio-focused operating system images onto real hardware with less
+                terminal ceremony.
               </p>
             </div>
 

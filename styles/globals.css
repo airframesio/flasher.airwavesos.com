@@ -643,7 +643,8 @@ html[data-theme='light'] .nav__theme .icon-moon {
 }
 
 .preview__media img {
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .preview__bar {
