@@ -39,7 +39,8 @@ pages/
   _document.js        Initial theme bootstrap
   index.js            Landing page content and section data
 public/
-  screenshots/        App screenshots used by ProductPreview
+  screenshots/        Dark app screenshots used by ProductPreview
+  screenshots/light/  Matching light-mode app screenshots
   airwaves.png        Site icon
   airwaves-flasher-og.png
 styles/
@@ -116,8 +117,10 @@ The release CTA currently points to:
 https://github.com/airframesio/airwaves-os-flasher/releases/latest
 ```
 
-Update screenshots in `public/screenshots/` and keep the filenames aligned with
-`components/ProductPreview.js`.
+Update screenshots in `public/screenshots/` and `public/screenshots/light/`, then
+keep the filenames aligned with `components/ProductPreview.js`. The preview
+defaults to the current page theme and also exposes a small Light/Dark switch for
+each preview instance.
 
 ## Verification Checklist
 
